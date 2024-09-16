@@ -4,7 +4,7 @@
  * These definitions were written by BendingBender (https://github.com/BendingBender)
  */
 
-export = crc32;
+export default crc32;
 
 declare function crc32(input: string | Buffer, partialCrc?: Buffer | number): Buffer;
 
